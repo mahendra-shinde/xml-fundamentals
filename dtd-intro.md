@@ -38,7 +38,7 @@
     ```
 
     > data2.xml
-    
+
     ```xml
     <!DOCTYPE orders SYSTEM "schema1.dtd" >
     <orders>
@@ -49,3 +49,9 @@
 
     </orders>
     ```
+
+* Multipliers for Child Element
+
+-   ?   Optional Child element
+-   +   Minimum ONE and Maximum UNLIMITED occurrences
+-   *   
