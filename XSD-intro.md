@@ -29,7 +29,7 @@
 - An Alias is also called as "Prefix"
 - In ONE document, no more than ONE namespace is allowed to use EMPTY prefix.
 
-> Exmaple of EMPTY Prefix / Alias
+    > Exmaple of EMPTY Prefix / Alias
 
     ```xml
     <schema xmlns="http://www.w3.org/2001/XMLSchema">
@@ -39,7 +39,7 @@
     </schema>
     ```
 
-> Example of Prefix "xs"
+    > Example of Prefix "xs"
 
     ```xml
     <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
