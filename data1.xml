@@ -1,0 +1,17 @@
+<!-- An SGML Comment, valid in both HTML and XML Documents -->
+<orders>
+    <order id="101">
+        <customer>Mr Wilson</customer>
+        <productList>
+            <product id="P101" name="Dell XPS" price="95,000" />
+            <product id="P102" name="HP Envy" price="120,000" />
+        </productList>
+    </order>
+    <order id="102">
+        <customer>Mr Young</customer>
+        <productList>
+            <product id="P101" name="Dell XPS" price="95,000" />
+
+        </productList>
+    </order>
+</orders>

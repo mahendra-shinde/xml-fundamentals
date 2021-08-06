@@ -1,0 +1,8 @@
+<!DOCTYPE orders SYSTEM "schema1.dtd" >
+<orders>
+    <order>
+        <customer>Mahendra Shinde</customer>
+        <customer>Sonali</customer>
+    </order>
+
+</orders>
