@@ -1,0 +1,7 @@
+<!-- XSD Files use ".xsd" extension -->
+<!-- Create a file with ".xsd" extension, then use CTR_SPACE to get auto-generation options: "New XML Schema" -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="price" type="xs:positiveInteger">
+        
+    </xs:element>
+</xs:schema>

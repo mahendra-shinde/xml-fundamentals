@@ -1,0 +1,6 @@
+<!DOCTYPE orders SYSTEM "schema2.dtd">
+<orders>
+    <order>
+        <customer name="" phone="" />
+    </order>
+</orders>
