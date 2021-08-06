@@ -76,3 +76,35 @@
         10000
     </price>
     ```
+
+## XSD User defined Types:
+
+1.  SimpleType
+
+    Atomic Types (Useful in attributes and leaf-node elements). Usually inherits another user-defined or built-in SimpleType like string, int or double.
+
+    > Example:
+    ```xml
+    <xs:simpleType name="amountType">
+        <xs:restriction base="xs:double">
+            <xs:minInclusive value="100000"/>
+            <xs:maxInclusive value="100000000"/>
+        </xs:restriction>
+    </xs:simpleType>
+    ```
+
+2.  ComplexType
+
+    User-defined type which allows child-elements and attributes. Either contains "sequence" of child elements or "group" of child elements. (Group means child elements can be in any order, sequence means fixed order).
+
+    > Example:
+    ```xml
+    <xs:complexType name="loanType">
+        <xs:attribute name="LoanCategory" type="CategoryType" />
+        <xs:attribute name="AccountNumber"  type="xs:long" />
+        <xs:attribute name="Amount" type="amountType" />
+    </xs:complexType>
+    ```
+
+## Demo 2 
+Use [This XSD](./loan.xsd) and [This XML](./loan.xml) as demo.
