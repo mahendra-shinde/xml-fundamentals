@@ -30,3 +30,7 @@
     Valid:  <order><customer>xyz</customer></order>
     INValid:  <order><customer>xyz</order></customer>
     ```
+
+## XML is Internally Processed as TREE like structure (Hierarchical Data Structure)
+
+![ALT TEXT](./drawings/XML-funda-Page-2.png  "Hierarchical Structure")
