@@ -1,0 +1,12 @@
+<!-- Defining a ROOT element "orders"
+     which MUST contain ONE OR MORE COPIES of ANOTHER ELEMENT "order" -->
+<!ELEMENT orders (order+)>
+<!-- element "order" must contain exactly ONE customer element -->
+<!ELEMENT order ( customer+)>
+<!-- Customer element doesnot contain any text contents -->
+<!ELEMENT customer EMPTY>
+<!-- name is REQUIRED attribute and phone is OPTIONAL attribute -->
+<!ATTLIST customer
+     name CDATA #REQUIRED
+     phone CDATA #REQUIRED
+>
