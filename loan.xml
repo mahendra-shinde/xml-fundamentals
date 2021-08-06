@@ -1,0 +1,11 @@
+<loans
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="loan.xsd">
+    
+    <loan AccountNumber="47656986979879"  Amount="100000" LoanCategory="Gold" />
+    <loan AccountNumber="47656986912344"  Amount="120000" LoanCategory="Education" />
+    <loan AccountNumber="47656986979344"  Amount="150000" LoanCategory="Education" />
+    <loan AccountNumber="47656986979823"  Amount="500000" LoanCategory="Personal" />
+    <loan AccountNumber="47656986972344"  Amount="5000000" LoanCategory="Home" />
+    
+</loans>
