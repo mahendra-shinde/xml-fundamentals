@@ -11,6 +11,7 @@
         <xs:attribute name="LoanCategory" type="CategoryType" />
         <xs:attribute name="AccountNumber"  type="xs:long" />
         <xs:attribute name="Amount" type="amountType" />
+        <xs:attribute name="Date" type="dateType" use="required"/>
     </xs:complexType>
 
     <!-- SimpleType: ATOMIC Type which inherits another SimpleType-->
@@ -25,6 +26,13 @@
             <xs:minInclusive value="100000"/>
             <xs:maxInclusive value="100000000"/>
         </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="dateType">
+    <xs:restriction base="xs:date">
+        <xs:minInclusive value="2003-01-01"/>
+        <xs:maxInclusive value="2021-03-31"/>
+    </xs:restriction>
     </xs:simpleType>
 
 </xs:schema>
