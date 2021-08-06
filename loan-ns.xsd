@@ -1,0 +1,39 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://mahendra.com/loans" xmlns="http://mahendra.com/loans">
+    <xs:element name="loans" type="loansType" />
+
+    <xs:complexType name="loansType">
+        <xs:sequence>
+            <xs:element name="loan" minOccurs="5" maxOccurs="500" type="loanType" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="loanType">
+        <xs:attribute name="LoanCategory" type="CategoryType" />
+        <xs:attribute name="AccountNumber"  type="xs:long" />
+        <xs:attribute name="Amount" type="amountType" />
+        <xs:attribute name="Date" type="dateType" use="required"/>
+    </xs:complexType>
+
+    <!-- SimpleType: ATOMIC Type which inherits another SimpleType-->
+    <xs:simpleType name="CategoryType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Home|Personal|Gold|Education" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="amountType">
+        <xs:restriction base="xs:double">
+            <xs:minInclusive value="100000"/>
+            <xs:maxInclusive value="100000000"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="dateType">
+    <xs:restriction base="xs:date">
+        <xs:minInclusive value="2003-01-01"/>
+        <xs:maxInclusive value="2021-03-31"/>
+    </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

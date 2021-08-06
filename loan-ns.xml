@@ -1,4 +1,6 @@
-<loans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="loan.xsd">
+<ns:loans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:ns="http://mahendra.com/loans"
+    xsi:schemaLocation="http://mahendra.com/loans loan-ns.xsd">
 
     <loan AccountNumber="47656986979879" Amount="100000" LoanCategory="Gold" Date="2005-01-01" />
     <loan AccountNumber="47656986912344" Amount="120000" LoanCategory="Education" Date="2010-01-12" />
@@ -6,4 +8,4 @@
     <loan AccountNumber="47656986979823" Amount="500000" LoanCategory="Personal" Date="2020-01-05" />
     <loan AccountNumber="47656986972344" Amount="5000000" LoanCategory="Home" Date="2015-11-05" />
 
-</loans>
+</ns:loans>
