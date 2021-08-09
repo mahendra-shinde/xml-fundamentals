@@ -1,0 +1,33 @@
+<movie-list>
+    <movie>
+        <title>Dhadakebaj</title>
+        <year>1994</year>
+        <language>Marathi</language>
+    </movie>
+    <movie>
+        <title>Andaj Apna Apna</title>
+        <year>1994</year>
+        <language>Hindi</language>
+    </movie>
+    <movie>
+        <title>Koi Mil Gaya</title>
+        <year>2010</year>
+        <language>Hindi</language>
+    </movie>
+    <movie>
+        <title>Sholay</title>
+        <year>1974</year>
+        <language>Hindi</language>
+    </movie>
+    <movie>
+        <title>Kaksparsh</title>
+        <year>2014</year>
+        <language>Marathi</language>
+    </movie>
+    <movie>
+        <title>Tomorrow War</title>
+        <year>2021</year>
+        <language>English</language>
+    </movie>
+    
+</movie-list>
