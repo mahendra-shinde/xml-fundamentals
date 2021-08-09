@@ -1,3 +1,4 @@
+<?xml-stylesheet href="report1.xsl" type="text/xsl"?>
 <loans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="loan.xsd">
 
     <loan AccountNumber="47656986979879" Amount="100000" LoanCategory="Gold" Date="2005-01-01" />
